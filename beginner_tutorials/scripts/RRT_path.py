@@ -26,8 +26,8 @@ goal_reached= False
                        
 while (goal_reached==False):
     min_index = 0
-    ranx=random.uniform(0,8)
-    rany=random.uniform(0,8)
+    ranx=random.uniform(0,(goalx+1))
+    rany=random.uniform(0,(goaly+1))
     min_distance= sqrt(pow(( nodes_x[0]-ranx), 2) + pow((nodes_y[0]-rany), 2))
     ranx_a=[]
     rany_a=[]
