@@ -69,6 +69,7 @@ goal.y= path[0][1]
 
 while not rospy.is_shutdown():
     k=0
+    path=[]
     while k< (len(arr_x)):
         path.append([arr_x[k],arr_y[k]])
         k=k+1
